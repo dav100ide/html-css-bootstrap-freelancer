@@ -2,7 +2,8 @@ header {
    background-color: var(--my_secondary-color);
    color: white;
 }
-
+.my_logo {
+}
 .my_header-nav li:not(:last-child) {
    padding-inline-end: 1rem;
 }

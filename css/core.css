@@ -23,3 +23,13 @@ a {
 /* =======================
       my UTILITIES   
 ========================== */
+.my_container {
+   max-width: 26.875rem;
+}
+
+/* bootstrap default MD breakpoint */
+@media screen and (min-width: 768px) {
+   .my_container {
+      max-width: 37.5rem;
+   }
+}

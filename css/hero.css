@@ -1,0 +1,8 @@
+#hero {
+   background-color: var(--my_primary-color);
+   color: white;
+}
+
+.my_avatar {
+   max-height: 16.375rem;
+}
