@@ -1,0 +1,25 @@
+footer {
+   color: white;
+}
+/* =======================
+      footer top 
+========================== */
+.footer-top {
+   background-color: var(--my_secondary-color-light);
+}
+.follow-us a {
+   display: inline-block;
+   border: 1px solid white;
+   width: 2rem;
+   height: 2rem;
+   object-fit: cover;
+}
+.follow-us > *:not(:last-child) {
+   margin-inline-end: 1.5rem;
+}
+/* =======================
+      footer bottom 
+========================== */
+.footer-bottom {
+   background-color: var(--my_secondary-color);
+}
