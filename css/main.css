@@ -1,3 +1,17 @@
 /* =======================
       portfolio section 
 ========================== */
+#portfolio {
+}
+/* =======================
+      about section 
+========================== */
+#about {
+   color: white;
+   background-color: var(--my_primary-color);
+}
+/* =======================
+      contact section 
+========================== */
+#contact {
+}
