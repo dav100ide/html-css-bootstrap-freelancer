@@ -17,6 +17,9 @@ footer {
 .follow-us > *:not(:last-child) {
    margin-inline-end: 1.5rem;
 }
+.footer-top p a {
+   color: var(--my_primary-color);
+}
 /* =======================
       footer bottom 
 ========================== */
