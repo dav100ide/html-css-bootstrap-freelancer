@@ -21,7 +21,42 @@ a {
    color: inherit;
    text-decoration: none;
 }
+/* =======================
+      COMMONS  
+========================== */
+.my_star {
+}
+.my_star > i {
+   font-size: 1.6rem;
+}
+.my_star > .rounded-3 {
+   height: 3px;
+   width: 4.5rem;
+   background-color: currentColor;
+}
+/* deafault bootstrap md breakpoint */
+@media screen and (min-width: 768px) {
+   .my_star > .rounded-3 {
+      width: 7rem;
+   }
+}
 
+/* deafault bootstrap lg breakpoint */
+@media screen and (min-width: 992px) {
+   .my_star > .rounded-3 {
+      width: 9rem;
+   }
+}
+/* =======================
+      TYPOGRAPHY  
+========================== */
+h1 {
+   font-weight: bold;
+   font-size: 2.1875rem;
+}
+h2 {
+   font-size: 1.8rem;
+}
 /* =======================
       my UTILITIES   
 ========================== */

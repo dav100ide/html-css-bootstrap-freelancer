@@ -3,7 +3,19 @@ header {
    color: white;
 }
 .my_logo {
+   font-weight: bold;
+   font-size: 1.2rem;
 }
+.my_hamburger {
+   background-color: transparent;
+   border: 1px solid white;
+   color: #888888;
+}
+
 .my_header-nav li:not(:last-child) {
    padding-inline-end: 1rem;
+}
+
+.my_header-nav li a {
+   font-size: 1.2rem;
 }
