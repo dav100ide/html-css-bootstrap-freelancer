@@ -1,0 +1,30 @@
+/* component dipendente da bootstrap  */
+.form-control {
+   border-radius: 0;
+   border: none;
+   border-bottom: 1px solid gray;
+}
+
+.form-control:focus {
+   box-shadow: none;
+}
+
+#floatingTextarea {
+   min-height: 9.375rem;
+}
+.form-floating {
+   margin-bottom: 1rem;
+   font-size: 1.2rem;
+}
+
+.form-floating + .btn {
+   background-color: var(--my_primary-color);
+   border: none;
+}
+
+.form-floating + .btn:active {
+   background-color: var(--my_secondary-color);
+}
+.form-floating + .btn:focus-visible {
+   box-shadow: 0 0 0 0.25rem var(--my_secondary-color-light);
+}

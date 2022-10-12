@@ -21,6 +21,21 @@ a {
    color: inherit;
    text-decoration: none;
 }
+
+/* =======================
+      TYPOGRAPHY  
+========================== */
+body {
+}
+
+h1 {
+   font-weight: bold;
+   font-size: 2.1875rem;
+}
+h2 {
+   font-size: 1.8rem;
+}
+
 /* =======================
       COMMONS  
 ========================== */
@@ -47,16 +62,7 @@ a {
       width: 9rem;
    }
 }
-/* =======================
-      TYPOGRAPHY  
-========================== */
-h1 {
-   font-weight: bold;
-   font-size: 2.1875rem;
-}
-h2 {
-   font-size: 1.8rem;
-}
+
 /* =======================
       my UTILITIES   
 ========================== */
