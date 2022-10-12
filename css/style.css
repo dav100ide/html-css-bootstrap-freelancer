@@ -4,6 +4,9 @@
 @import url('main.css');
 @import url('footer.css');
 
-/* components */
-@import url('components/form.css');
+/* components autonomi */
 @import url('components/circle-social-media.css');
+@import url('components/my_card.css');
+@import url('my_star.css');
+/* components booststrap-dipendenti */
+@import url('components/form.css');

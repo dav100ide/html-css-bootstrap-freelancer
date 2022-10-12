@@ -1,0 +1,41 @@
+.my_star {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 1.5rem 0;
+}
+
+.my_star::before,
+.my_star::after {
+   content: '';
+   display: block;
+   height: 3px;
+   width: 4.5rem;
+   background-color: currentColor;
+   border-radius: 0.5rem;
+}
+
+.my_star > i {
+   font-size: 1.6rem;
+   margin: 0 0.5rem;
+}
+
+/* deafault bootstrap md breakpoint */
+@media screen and (min-width: 768px) {
+   .my_star::before,
+   .my_star::after {
+      width: 7rem;
+   }
+
+   .my_star > i {
+      margin: 0 1.5rem;
+   }
+}
+
+/* deafault bootstrap lg breakpoint */
+@media screen and (min-width: 992px) {
+   .my_star::before,
+   .my_star::after {
+      width: 9rem;
+   }
+}
