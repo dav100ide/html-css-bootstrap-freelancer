@@ -11,6 +11,15 @@
    color: white;
    background-color: var(--my_primary-color);
 }
+
+#about .btn-outline-primary {
+   color: white;
+   border-color: white;
+}
+
+#about .btn-outline-primary:hover {
+   background-color: var(--my_secondary-color-light);
+}
 /* =======================
       contact section 
 ========================== */
