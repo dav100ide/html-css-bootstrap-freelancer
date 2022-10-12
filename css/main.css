@@ -1,12 +1,12 @@
 /* =======================
       portfolio section 
 ========================== */
-#portfolio {
-}
+/* .my_card si trova css\components\my_card.css  */
 
 /* =======================
       about section 
 ========================== */
+
 #about {
    color: white;
    background-color: var(--my_primary-color);
@@ -25,5 +25,4 @@
 /* =======================
       contact section 
 ========================== */
-#contact {
-}
+/* il form si trova a css\components\form.css */
