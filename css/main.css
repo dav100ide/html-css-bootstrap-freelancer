@@ -15,11 +15,13 @@
 #about .btn-outline-primary {
    color: white;
    border-color: white;
+   margin-top: 2rem;
 }
 
 #about .btn-outline-primary:hover {
    background-color: var(--my_secondary-color-light);
 }
+
 /* =======================
       contact section 
 ========================== */

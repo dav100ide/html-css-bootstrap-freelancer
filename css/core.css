@@ -40,6 +40,7 @@ h2 {
       COMMONS  
 ========================== */
 .my_star {
+   margin: 1.5rem 0;
 }
 .my_star > i {
    font-size: 1.6rem;
