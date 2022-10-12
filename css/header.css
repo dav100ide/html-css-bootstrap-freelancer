@@ -1,7 +1,13 @@
 header {
    background-color: var(--my_secondary-color);
    color: white;
+   position: sticky;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 6969;
 }
+
 .my_logo {
    font-weight: bold;
    font-size: 1.2rem;
