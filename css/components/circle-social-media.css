@@ -1,0 +1,28 @@
+/* component AUTONOMO, non dipendente dalle librerie */
+
+.footer-top {
+   background-color: var(--my_secondary-color-light);
+}
+
+.follow-us {
+   display: flex;
+   justify-content: center;
+}
+
+.follow-us .circle-social-media {
+   display: inline-block;
+   width: 3rem;
+   height: 3rem;
+   border: 1px solid white;
+   border-radius: 50%;
+   object-fit: cover;
+}
+
+.follow-us i {
+   line-height: 3rem;
+   text-align: center;
+}
+
+.follow-us > *:not(:last-child) {
+   margin-inline-end: 1.5rem;
+}
